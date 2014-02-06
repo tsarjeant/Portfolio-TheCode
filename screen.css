@@ -1,0 +1,360 @@
+/*fonts: 
+
+ */
+/*links*/
+a:link {
+	color: #696969;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba (255,255,255,.5);
+	text-decoration: none;
+}
+
+a:visited {
+	color: #696969;
+	text-decoration: none;
+}
+
+a:active {
+	color: black;
+}
+
+body {
+	margin: 0;
+	font-family: 'cadenceregular', helvetica;
+}
+
+html {
+	height: 100%;
+}
+
+#frame {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header {
+	width: 100%;
+	height: 150px;
+	background-color: white;
+
+	-webkit-box-shadow: 0px 3px 13px rgba(50, 50, 50, 0.1);
+	box-shadow: 0px 3px 13px rgba(50, 50, 50, 0.1);
+}
+
+/* items within the header */
+#logo {
+	width: 300px;
+}
+
+#logoLock {
+	width:75%;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+#tagline {
+	width: 200px;
+	margin-left: 87px;
+	margin-top: -8px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.active {
+	color: #0098D1 !important;
+}
+
+nav {
+	float: right;
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: block;
+	float: right;
+	height: 50px;
+	width: auto;
+}
+
+nav ul li a {
+	display: block;
+	float: left;
+	font-size: 20px;
+	margin-right: 30px;
+	height: 50px;
+	width: auto;
+	line-height: 50px;
+}
+
+.link {
+	margin: 0 auto;
+	float: right;
+}
+
+#TenPx {
+	margin-top: 10px;
+}
+
+#email {
+	display: block;
+	height: 25px;
+	width: 100%;
+}
+
+#elink {
+	margin: 0 auto;
+	float: right;
+	margin-top: -20px;
+	padding-right: 25px;
+}
+
+.about {
+	display: block;
+	margin-top: 100px;
+	padding-left: 25px;
+}
+
+.about p {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+/* ====================== Image Links ========================= */
+.imageHover {
+	float: left;
+	position: relative;
+}
+
+.imgfx:hover>span {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	opacity: .5;
+	background-color: black;
+}
+
+#launch {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 560px;
+	margin-left: 25px;
+	width: 900px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transition: opacity 0.3s ease-out;
+	-moz-transition: opacity 0.3s ease-out;
+	-o-transition: opacity 0.3s ease-out;
+	-ms-transition: opacity 0.3s ease-out;
+	transition: opacity 0.3s ease-out;
+	text-align: right;
+}
+
+#launch:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.hero {
+	margin-left: 25px;
+}
+
+/* ====================== Text Styles ========================== */
+h1 {
+	background-image: url('../images/LogoBlack.png');
+	background-repeat: no-repeat;
+	height: 60px !important;
+	width: 300px;
+}
+
+h2 {
+	margin: 0 auto;
+	font-family: 'cadenceregular', helvetica;
+	color: #0098D1;
+	font-size: 18pt;
+}
+
+h3 {
+	margin: 0 auto;
+	font-family: 'cadenceregular', helvetica;
+	color: #aaa;
+	font-size: 13pt;
+}
+
+h4 {
+	margin: 0 auto;
+	font-family: 'cadenceregular', helvetica;
+	color: #696969;
+	font-size: 8pt;
+}
+
+h5 {
+	margin: 0 auto;
+	font-family: 'cadenceregular', helvetica;
+	color: #0098D1;
+	font-size: 12pt;
+	padding: 10px;
+}
+
+h6 {
+	margin: 0 auto;
+	font-family: 'cadenceregular', helvetica;
+	color: #0098D1;
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#content {
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+	/*padding-bottom: 75px;*/
+}
+
+.item {
+	margin-top: 75px;
+	padding-left: 25px;
+}
+
+#item1 {
+	padding: 25px;
+}
+
+#item2 {
+	padding: 50px;
+}
+
+#item3 {
+	padding: 25px;
+}
+
+#item4 {
+	padding: 25px;
+}
+
+.title {
+	margin: 0 auto;
+	width: 960px;
+	float: left;
+}
+
+.subtitle {
+	margin: 0 auto;
+	padding: 30px 0 15px 0;
+}
+
+.blurb {
+	margin-top: 20px;
+	width: 620px;
+}
+
+.space {
+	margin-left: 25px;
+}
+
+/* ============================= RESUME STYLES ============================== */
+.resume {
+	height: 720px;
+	/*display: block;*/
+	/*padding-left: 50px;*/
+	padding-right: 50px;
+}
+
+.rtitle {
+	display: block;
+	float: left;
+	width: 100px;
+	margin-top: 25px;
+	margin-left: 150px;
+}
+
+.rdetail {
+	display: block;
+	float: left;
+	width: 470px;
+	margin-top: 30px;
+	margin-left: 100px;
+	line-height: 120%;
+}
+
+.mb {
+	padding-left: 5px;
+}
+
+#col {
+	width: 100px;
+	float: left;
+	margin-right: 30px;
+}
+
+#downloadLink {
+	display: block;
+	float: right;
+	width: 100%;
+	text-align: right;
+	padding-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/* -===========================-Footer Styles -==================================-*/
+.footer {
+	height:100px;
+	/*position: fixed;*/
+	bottom: 0;
+	width: 100%;
+	display: block;
+	margin-top: 35px;
+	background-color: white;
+	-webkit-box-shadow: 0px -3px 13px rgba(50, 50, 50, 0.1);
+	box-shadow: 0px -3px 13px rgba(50, 50, 50, 0.1);
+}
+
+.footer2 {
+	position: fixed;
+	bottom: 0;
+	width: 960px;
+	display: block;
+	margin-top: 35px;
+	background-color: white;
+	-webkit-box-shadow: 0px -3px 13px rgba(50, 50, 50, 0.1);
+	box-shadow: 0px -3px 13px rgba(50, 50, 50, 0.1);
+}
+
+#footer {
+	margin: 0 auto;
+	display: block;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	width: 960px;
+}
+
+.icon {
+	display: inline-block;
+	float: left;
+	margin: 5px;
+}
+
+#socialIcons {
+	float:left;
+	margin: 0 auto;
+	width: 960px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+/* ======================== Asian Art Page Styles ===============================*/
+.image {
+	margin-top: 25px;
+}
